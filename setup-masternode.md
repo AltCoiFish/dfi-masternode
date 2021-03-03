@@ -30,6 +30,7 @@ What is a legacy address:gar  https://github.com/DeFiCh/ain/wiki/DeFiChain-Addre
 + 1x remote Node  / local AIN
 + 1x local Wallet 
 
+#### 1 
 **1. create a legacy address on Wallet:**
 
 I am  adding a label to the generated DFI address "masternode-owner"
@@ -38,8 +39,10 @@ I am  adding a label to the generated DFI address "masternode-owner"
 
 you can also create a legacy address using the GUI and choose `Show advance options` when creating a new address.
 
+#### 2
 **2. Fund this new Wallet address with exactly 20.010 DFI.**
 
+#### 3
 
 **3.On your Node:** 
 
@@ -68,6 +71,7 @@ Log:
 ```
 
 
+#### 4
 
 **4 .On your Wallet register a new masternode on the network:**
 
@@ -75,9 +79,13 @@ Please make sure you have 10DFI on the wallet address, as this command will cost
 
 `defi-cli createmasternode wallet-address node-address`
 
+#### 5
+
 **5 . on Wallet**
 
 Edit your `defi.conf` and add `masternode_owner=masternode-owner` and `gen=1`  where wallet-address is the legacy address we created on our wallet called "masternode-owner"
+
+#### 6
 
 **6 . restart node** 
 
