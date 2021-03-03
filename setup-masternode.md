@@ -4,21 +4,23 @@ Based on: https://defichain.com/learn/run-a-masternode/
 _I am not going into details of how to setup a DFI-node._
 
 *I am only interesting in the scenario:*
-"For owners who would like to delegate the DFI-Masternode duties to another node"
 
-because I don't want to store 20k DFI on my server and/or local ´AIN´ instance. 
+"For owners who would like to delegate the DFI-Masternode duties to another node" as descibed in the link above. As I don't want to store 20k DFI on my server and/or local ´AIN´ instance. 
 
 **Terms:**
+We need to define some terms, in order to understand the process of setting up a DFI-Masternode.
 
 + **Wallet = local DFI-Wallet or AIN (PC)**
 
-(This can be any DFI-Wallet you want to use) 
+This can be any DFI-Wallet you want to use. It could be your local DFI-Wallet or any `ain` you running locally. 
 
 + **Node =  remote Server for Masternode or local AIN**
 
-(if you already have a DFI-Node use it as a operator node or you can use your local AIN)
+If you already have a remote DFI-Node use it as a operator node or you can use your local AIN as well. 
 
-+ **owner address = owner who has the 20.000 DFI on one particular DFI-legacy-address**
++ **owner address = owner who has the 20.010 DFI on one particular DFI-legacy-address**
+
+What is a legacy address:gar  https://github.com/DeFiCh/ain/wiki/DeFiChain-Address-Format
 
 
 **Requirements:** 
