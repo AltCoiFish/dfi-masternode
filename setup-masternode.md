@@ -1,15 +1,12 @@
-**DRAFT **
+## How to setup a DFI-Masternode
+Based on: https://defichain.com/learn/run-a-masternode/
 
-**How to setup a DFI-Masternode**
+_I am not going into details of how to setup a DFI-node._
 
-**I am not going into details of how to setup a DFI-node.** 
+*I am only interesting in the scenario:*
+"For owners who would like to delegate the DFI-Masternode duties to another node"
 
-**Based on:**  https://defichain.com/learn/run-a-masternode/
-
-I am only interesting in "For owners who would like to delegate the masternode duties to another node" because I don't want to store 20k DFI on my Server. 
-
-In the following steps I will try to describe a way for the `block 678,000 on 01 March 2021 Dakota-Upgrade` .
-
+because I don't want to store 20k DFI on my server and/or local ´AIN´ instance. 
 
 **Terms:**
 
@@ -70,7 +67,7 @@ Please make sure you have 10DFI on the wallet address, as this command will cost
 
 **6 . restart node** 
 
-**## if sucessfull 
+## if sucessfull 
 
 If everything was successfull you should see on your DFI-Wallet:
 
