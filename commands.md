@@ -79,3 +79,17 @@
   "warnings": ""
 }
 ```
+
++ Count all Masternodes and state
+
+`defi-cli listmasternodes '{"limit":100000000}' | grep "state" | sort | uniq -c `
+
+**Output:**
+
+```
+3685     "state": "ENABLED",
+   4     "state": "PRE_ENABLED",
+ 350     "state": "RESIGNED",
+```
+
+
