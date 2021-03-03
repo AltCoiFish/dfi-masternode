@@ -54,3 +54,28 @@
   }
 }
 ```
+
++ Check if you masternode is mining
+
+`defi-cli getmintinginfo` 
+
+**Output:**
+
+```
+{ 
+  "blocks": 682941,
+  "currentblockweight": 5758,
+  "currentblocktx": 2,
+  "difficulty": 364273275.7898824,
+  "isoperator": true,
+  "masternodeid": "80b58d17c558c4f62ce8f399469fa914ba33e8f9a645e873ddbcdb40ab21f205",
+  "masternodeoperator": "14ba33e8Eh7MhdATAd25BjnU7AsAKMvNY2yJVzR",
+  "masternodestate": "ENABLED",
+  "generate": true,
+  "mintedblocks": 0,
+  "networkhashps": 2.465515082987458e+16,
+  "pooledtx": 2,
+  "chain": "main",
+  "warnings": ""
+}
+```
