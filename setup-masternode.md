@@ -17,7 +17,7 @@ In the following steps I will try to describe a way for the `block 678,000 on 01
 
 (This can be any DFI-Wallet you want to use) 
 
-+ **Node =  remote Server for Masternode**
++ **Node =  remote Server for Masternode or local AIN**
 
 (if you already have a DFI-Node use it as a operator node or you can use your local AIN)
 
@@ -36,12 +36,16 @@ I am  adding a label to the generated DFI address "masternode-owner"
 
 `defi-cli getnewaddress "masternode-owner" legacy`
 
-**2. Fund this new Wallet address with 20.010 DFI.**
+you can also create a legacy address using the GUI and choose `Show advance options` when creating a new address.
+
+**2. Fund this new Wallet address with exactly 20.010 DFI.**
+
 
 3.
 **On your Node:** 
 
 create also a legacy address **We will call it node-address**
+_It is called `operator-address` on the official tutorial_
 
 **3.1
 
@@ -62,7 +66,7 @@ Please make sure you have 10DFI on the wallet address, as this command will cost
 
 `defi-cli createmasternode wallet-address node-address`
 
-**5 . on Node edit your** `defi.conf` and add `masternode_owner=wallet-address` and `gen=1`  where wallet-address is the legacy address we created on our wallet. 
+**5 . on Wallet edit your** `defi.conf` and add `masternode_owner=masternode-owner` and `gen=1`  where wallet-address is the legacy address we created on our wallet called "masternode-owner"
 
 **6 . restart node** 
 
