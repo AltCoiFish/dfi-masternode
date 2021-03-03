@@ -1,6 +1,6 @@
 ## Useful commands for DFI-Masternodes
 
-+ List all DFI-Masternodes
++ #List all DFI-Masternodes
 
 `defi-cli listmasternodes`
 
@@ -33,7 +33,7 @@
 
 
 ```
-+ List only your DFI-Masternode based on id
++ #List only your DFI-Masternode based on id
  
 `defi-cli getmasternode "80b58d17c558c4f62ce8f399469fa914ba33e8f9a645e873ddbcdb40ab21f205"`
 
@@ -55,7 +55,7 @@
 }
 ```
 
-+ Check if you masternode is mining
++ #Check if you masternode is mining
 
 `defi-cli getmintinginfo` 
 
@@ -80,7 +80,7 @@
 }
 ```
 
-+ Count all Masternodes and state
++ #Count all Masternodes and state
 
 `defi-cli listmasternodes '{"limit":100000000}' | grep "state" | sort | uniq -c `
 
