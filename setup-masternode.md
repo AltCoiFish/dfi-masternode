@@ -74,4 +74,4 @@ Please make sure you have 10DFI on the wallet address, as this command will cost
 
 If everything was successfull you should see on your DFI-Wallet:
 
-
+![DFI Masternode view in Wallet](https://github.com/AltCoiFish/dfi-masternode/blob/main/Wallet-masternode-view.png?raw=true)
