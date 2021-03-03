@@ -81,6 +81,13 @@
 }
 ```
 
+and also check if your node is sucessfully an operator.
+
+``` 
+  "isoperator": true,
+```
+
+
 #### Count all Masternodes and state
 
 `defi-cli listmasternodes '{"limit":100000000}' | grep "state" | sort | uniq -c `
