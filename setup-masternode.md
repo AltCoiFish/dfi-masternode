@@ -83,7 +83,9 @@ Please make sure you have 10DFI on the wallet address, as this command will cost
 
 **5 . on Wallet**
 
-Edit your `defi.conf` and add `masternode_owner=masternode-owner` and `gen=1`  where wallet-address is the legacy address we created on our wallet called "masternode-owner"
+Edit your `defi.conf` and add `masternode_owner=masternode-owner`  where wallet-address is the legacy address we created on our wallet called "masternode-owner"
+
+When using an `ain` there is no need for `gen=1` on the wallet `defi.conf`
 
 #### 6
 
