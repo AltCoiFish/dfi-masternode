@@ -58,6 +58,17 @@ masternode_operator=node-address
 
 restart your `defid` 
 
+**3.3 check logs**
+
+If sucessfull you should see something like this in your `debug.log`
+
+```
+Log:
+2021-03-01T11:49:21Z ThreadStaker (93399bc2b307c82cd21f802c9e20d4899ca1ef7f): waiting init...
+```
+
+
+
 **4 .On your Wallet register a new masternode on the network:**
 
 Please make sure you have 10DFI on the wallet address, as this command will cost 10 DFI in addition to the 20.000 DFIs:
