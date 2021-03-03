@@ -40,13 +40,12 @@ you can also create a legacy address using the GUI and choose `Show advance opti
 **2. Fund this new Wallet address with exactly 20.010 DFI.**
 
 
-3.
-**On your Node:** 
+**3.On your Node:** 
 
 create also a legacy address **We will call it node-address**
 _It is called `operator-address` on the official tutorial_
 
-**3.1
+**3.1 edit defid.conf
 
 On your node you need to edit the `dfid.conf` file and add to the bottom
 
@@ -54,18 +53,19 @@ On your node you need to edit the `dfid.conf` file and add to the bottom
 gen=1
 masternode_operator=node-address
 ```
-**3.2
+**3.2 restart node
 
 restart your `defid` 
 
-**4 .
-On your Wallet register a new masternode on the network:**
+**4 .On your Wallet register a new masternode on the network:**
 
 Please make sure you have 10DFI on the wallet address, as this command will cost 10 DFI in addition to the 20.000 DFIs:
 
 `defi-cli createmasternode wallet-address node-address`
 
-**5 . on Wallet edit your** `defi.conf` and add `masternode_owner=masternode-owner` and `gen=1`  where wallet-address is the legacy address we created on our wallet called "masternode-owner"
+**5 . on Wallet**
+
+Edit your `defi.conf` and add `masternode_owner=masternode-owner` and `gen=1`  where wallet-address is the legacy address we created on our wallet called "masternode-owner"
 
 **6 . restart node** 
 
