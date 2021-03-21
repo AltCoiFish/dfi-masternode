@@ -51,7 +51,7 @@ _It is called `operator-address` on the official tutorial_
 
 **3.1 edit defi.conf
 
-On your node you need to edit the `dfid.conf` file and add to the bottom
+On your node you need to edit the `defi.conf` file and add to the bottom
 
 ```
 gen=1
