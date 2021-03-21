@@ -49,7 +49,7 @@ you can also create a legacy address using the GUI and choose `Show advance opti
 create also a legacy address **We will call it node-address**
 _It is called `operator-address` on the official tutorial_
 
-**3.1 edit defid.conf
+**3.1 edit defi.conf
 
 On your node you need to edit the `dfid.conf` file and add to the bottom
 
